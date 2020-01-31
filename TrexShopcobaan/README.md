@@ -7,4 +7,4 @@ Tanggal Upload 31 Januari 2020
 <img src="ScreenShot/drawio.PNG"/>
 
 ### 2. Hasil Project
-<img src=""/>
+<img src="ScreenShot/WhatsApp Image 2020-01-31 at 8.46.26 AM"/><img src="ScreenShot/WhatsApp Image 2020-01-31 at 8.46.26 AM(1)"/><img src="ScreenShot/WhatsApp Image 2020-01-31 at 8.46.26 AM(2)"/>
