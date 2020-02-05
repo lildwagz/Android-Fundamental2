@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_margin="20dp"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".BiodataActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,38 +23,42 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="Aplikasi input Biodata SMK Rabbanii"
+        android:text="Penampungan Data Siswa"
         android:textColor="#9C27B0" />
 
     <EditText
+        android:id="@+id/edt_NamaLengkap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Nama Lengkap " />
+        android:hint="Nama Lengkap " />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <EditText
+            android:id="@+id/edt_Tanggal"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tanggal"
+            android:hint="Tanggal"
             android:layout_marginRight="10dp"/>
 
         <EditText
+            android:id="@+id/edt_Bulan"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bulan"
+            android:hint="Bulan"
             android:layout_marginRight="10dp"/>
 
         <EditText
+            android:id="@+id/edt_Tahun"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tahun"
+            android:hint="Tahun"
             android:layout_marginRight="10dp"/>
 
 
@@ -62,23 +66,16 @@
 
 
     <EditText
+        android:id="@+id/edt_Kelas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kelas"/>
+        android:hint="Kelas"/>
 
     <EditText
+        android:id="@+id/edt_Jurusan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Jurusan " />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Tampilkan Inputan"
-        android:layout_gravity="center"/>
-
-
+        android:hint="Jurusan " />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -88,6 +85,7 @@
         >
 
         <Button
+            android:id="@+id/btn_TampilkanInputan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="View"
@@ -95,7 +93,7 @@
             />
 
         <Button
-
+            android:id="@+id/btn_Hapus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hapus" />
